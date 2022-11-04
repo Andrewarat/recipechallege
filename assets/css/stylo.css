@@ -36,5 +36,103 @@ h1{
 #cake img{
  width: 100%;
  border-radius: 12px;
+}
+.details{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 27.75px;
+}
+.icon{
+    width: 13.54px;
+    height: 12.57px;
+}
+#fork,#servings{
+    color: #f2994a;
+    
+}
+.description- :nth-child(1){
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 10px;
+    color: #bdbdbd;
 
+}
+.description :nth-child(2){
+    font-family: 'Montserrat';
+    font-weight: medium;
+    font-size: 10px;
+    line-height: 12px;
+    color: #333;
+
+}
+.times{
+    margin-right: 42.29px;
+    display: flex;
+    justify-content: space-between;    
+}
+.check{
+    display: flex;
+    gap: 8px;
+    padding: 3px 3px;
+}
+#ingredients{
+    color: #333;
+}
+#ingredients h2{
+ font-family: 'Playfair', serif;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 24px;
+ margin-bottom: 13px;
+
+}
+#ingredients h3{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.33px;
+    margin-bottom: 13px;
+    
+   }
+   input{
+    border: solid 1px #828282;
+    width: 21px;
+    height: 21px;
+
+   }
+   .check p{
+    width: 321px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:  25px;
+   }
+.check p span{
+    font-weight: 700;
+}
+.instructions{
+    display: flex;
+}
+.instructions div{
+    width: 36px;
+    height: 36px;
+    background-color: #f2994a;
+    border-radius: 6px;
+    color: white;
+}
+.instructions p{
+    width: 300px;
+}
+.instructions div p{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+.anchop{
+    width: 300px;
+    font-family: 'Montserrat';
 }
