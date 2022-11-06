@@ -43,14 +43,16 @@ h1{
     margin-bottom: 27.75px;
 }
 .icon{
+    text-align: center;
     width: 13.54px;
     height: 12.57px;
+    align-items: center;
 }
 #fork,#servings{
     color: #f2994a;
     
 }
-.description- :nth-child(1){
+.description :nth-child(1){
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 8px;
@@ -67,11 +69,12 @@ h1{
 
 }
 .times{
-    margin-right: 42.29px;
+    margin-right: 42.29px 20px 20 px 20px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: flex-start;    
 }
 .check{
+    margin: 10px;
     display: flex;
     gap: 8px;
     padding: 3px 3px;
@@ -87,13 +90,17 @@ h1{
  margin-bottom: 13px;
 
 }
+#ingredients h2{
+    margin: 10px;
+}
 #ingredients h3{
+    margin: 20px 20px 20px 20px ;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
     line-height: 21.33px;
-    margin-bottom: 13px;
+   /*  margin-bottom: 50px 50px 50px 50px; */
     
    }
    input{
@@ -112,27 +119,56 @@ h1{
 .check p span{
     font-weight: 700;
 }
-.instructions{
+.instruction{
     display: flex;
 }
-.instructions div{
+.instruction div{
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px 10px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 36px;
     height: 36px;
     background-color: #f2994a;
     border-radius: 6px;
     color: white;
 }
-.instructions p{
+.instruction p{
+    margin: 10px 10px 10px 10px;
     width: 300px;
 }
-.instructions div p{
+.instruction div p{
     font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-
+}
+#instructions h2{
+    margin: 10px;
 }
 .anchop{
     width: 300px;
     font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 150%;
+    align-items: left;
+}
+#created{
+    display: flex;
+    
+}
+#created p{
+    font-family: 'Montserrat';
+    color: #828282;
+    text-align: center;
+    align-items: center;
+}
+#created a{
+    font-family: 'montserrat';
+    color: #828282;
+    text-align: center;
+
 }
